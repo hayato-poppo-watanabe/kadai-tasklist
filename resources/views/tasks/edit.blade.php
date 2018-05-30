@@ -10,6 +10,7 @@
         
         {!! Form::label('content', 'メッセージ:') !!}
         {!! Form::text('content') !!}
+       
         {!! Form::submit('更新') !!}
         {!! Form::close() !!}
 @endsection
